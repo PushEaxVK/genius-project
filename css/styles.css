@@ -1,7 +1,12 @@
 .button {
-    border: 4px solid violet; 
+    color: #faf4ea;
+    background-color: #819B57;
+    border: 2px solid #819B57;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.button[disabled] {
-    border: 4px solid black;
+.button:hover {
+    color: #465929;
+    background-color: transparent;
 }
