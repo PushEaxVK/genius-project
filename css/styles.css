@@ -10,3 +10,11 @@
     color: #465929;
     background-color: transparent;
 }
+
+.button:focus {
+    background-color: hotpink;
+}
+
+.button:active {
+    background-color: #1122FF;
+}
